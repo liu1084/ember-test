@@ -1,0 +1,1 @@
+{"version":3,"sources":["about.js"],"names":[],"mappings":"AAAA,OAAO,KAAP,MAAkB,OAAlB;;AAEA,eAAe,MAAM,KAAN,CAAY,MAAZ,CAAmB,EAAnB,CAAf","file":"about-compiled.js","sourcesContent":["import Ember from 'ember';\n\nexport default Ember.Route.extend({\n});\n"]}
