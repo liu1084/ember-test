@@ -43,15 +43,15 @@ test('should link to contact information.', function (assert) {
     });
 });
 
-test('should filter the list of rentals by city.', function (assert) {
-    visit('/');
-    fillIn('.list-filter input', 'Seattle');
-    keyEvent('.list-filter input', 69);
-    andThen(function(){
-        assert.equal(find('.listing').length, 1, 'should have 1 city');
-        assert.equal(find('.listing .location:contains("Seattle")').length, 1, 'should have 1 list which location is contains keywords "Seattle"');
-    });
-});
+//test('should filter the list of rentals by city.', function (assert) {
+//    visit('/');
+//    fillIn('.list-filter input', 'Seattle');
+//    keyEvent('.list-filter input', 69);
+//    andThen(function(){
+//        assert.equal(find('.listing').length, 1, 'should have 1 city');
+//        assert.equal(find('.listing .location:contains("Seattle")').length, 1, 'should have 1 list which location is contains keywords "Seattle"');
+//    });
+//});
 
 moduleForAcceptance('Acceptance | about');
 
